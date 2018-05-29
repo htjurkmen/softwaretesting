@@ -1,0 +1,137 @@
+Test Case ID - TC0001
+Name - create new account
+Priority - 1
+Description - create new account
+Prerequisites - do not have existing account
+Input Data - correct username and password
+Date Created - 29.05.18
+Author - Sviklena Stoyanova
+   Test Steps
+Step; 1- open site url
+2-click on create new account
+3- fill correctly username and password
+4- click sing in
+
+
+Expected Result; 1- create new account option is available
+2-registration form is opend
+3-a message for succsesfull registretion is shown
+
+
+Test Case ID- TC0002
+Name- search for products
+Priority -1
+Description- search for products from subcategories
+Prerequisites- correctly filled the search field
+Input Data- username-x; password;y
+Date Created-29.05.18
+Author-Svilena Stoyanova
+   Test Steps
+Step; 1-fill username and password fields
+2-log in
+3- search for products, click search
+
+
+Expected Result; 1- items product containing the serach phase are shown
+
+
+Test Case ID- TC0003
+Name- test the "contacts" options
+Priority- succsesfull contact with administrator
+Description- send a message to administrator
+Prerequisites-correctly filled : Subject Heading,Email address,Order reference,Attach File
+Input Data-have existing account
+Date Created-29.05.18
+Author-Svilena Stoyanova
+   Test Steps
+Step 1-fill all fields
+2- write a message
+3-click send bitton
+
+
+Expected Result: succsesfull sent message to admonistrator
+
+Test Case ID-TC0004
+Name-test the sort by button
+Priority-1
+Description-test the sort by button
+Prerequisites-existing account, opend subcategory
+Input Data-username,password
+Date Created-29.05.18
+Author-Svilena Stoyanova
+   Test Steps
+Step 1-log in
+2-click the sort by button
+3-choose options fom the menu
+
+Expected Result- to open any options from the sort by menu
+
+Test Case ID
+Name
+Priority
+Description
+Prerequisites
+Input Data
+Date Created
+Author
+   Test Steps
+Step
+
+
+Expected Result
+
+Test Case ID
+Name
+Priority
+Description
+Prerequisites
+Input Data
+Date Created
+Author
+   Test Steps
+Step
+
+
+Expected Result
+
+Test Case ID
+Name
+Priority
+Description
+Prerequisites
+Input Data
+Date Created
+Author
+   Test Steps
+Step
+
+
+Expected Result
+
+Test Case ID
+Name
+Priority
+Description
+Prerequisites
+Input Data
+Date Created
+Author
+   Test Steps
+Step
+
+
+Expected Result
+
+Test Case ID
+Name
+Priority
+Description
+Prerequisites
+Input Data
+Date Created
+Author
+   Test Steps
+Step
+
+
+Expected Result
