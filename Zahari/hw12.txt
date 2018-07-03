@@ -1,0 +1,50 @@
+1. SELECT * FROM Customers;
+
+2. SELECT ContactName FROM Customers;
+
+3. SELECT DISTINCT City, Country from Customers;
+
+4.INSERT INTO Customers (CustomerName, ContactName, Address,
+City, PostalCode, Country)
+VALUES ('ErikaS','Erika Sgafi','Welsh 
+21','Cape Town','2322','South Africa'); 
+.. / 2 / 
+.. / 3 / 
+
+5. UPDATE Customers
+SET ContactName='Nancy Davolio'
+WHERE CustomerName='Andrew Fuller';
+
+
+6. SELECT * FROM Product
+LEFT JOIN Categories
+on Products.CategoryID=Categories.CategoryID
+group by CategoryName;
+
+
+7. SELECT * from Employees
+order by LastName;
+
+SET ContactName='Nancy Davolio'
+WHERE CustomerName='? '; - Adam West
+
+?? 
+
+
+
+
+8. SELECT Customers.CustomerID, Orders.CustomerID
+FROM Customers
+inner join Orders
+on Customers.CustomerID=Orders.CustomerID
+group by Orders.CustomerID
+
+9.SELECT * from Products
+WHERE ProductName like '%ch%' and Price between 10 and 20;
+
+10. SELECT Products.CategoryID,count(Orders.OrderID) as Quantity
+from Orders
+left join Products
+on Products.CategoryID=Products.CategoryID
+group by CategoryID
+order by Quantity desc;
